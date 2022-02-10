@@ -1,4 +1,4 @@
-package com.emmywallpapers.onboarding.screens
+package com.onboarding
 
 
 import android.content.Context
@@ -8,8 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.emmywallpapers.R
-import com.emmywallpapers.databinding.FragmentThirdScreenBinding
+import com.onboarding.R
+import com.onboarding.databinding.FragmentThirdScreenBinding
 
 class ThirdScreen : Fragment() {
 
@@ -19,7 +19,6 @@ class ThirdScreen : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         binding= FragmentThirdScreenBinding.inflate(inflater,container,false)
 
         binding.finish.setOnClickListener {
