@@ -1,15 +1,15 @@
-package com.emmywallpapers.onboarding
+package com.onboarding
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup 
-import com.emmywallpapers.Adapter.ViewPagerAdapter
-import com.emmywallpapers.databinding.FragmentViewPagerBinding
-import com.emmywallpapers.onboarding.screens.FirstScreen
-import com.emmywallpapers.onboarding.screens.SecondScreen
-import com.emmywallpapers.onboarding.screens.ThirdScreen
+import com.onboarding.ViewPagerAdapter
+import com.onboarding.databinding.FragmentViewPagerBinding
+import com.onboarding.FirstScreen
+import com.onboarding.SecondScreen
+import com.onboarding.ThirdScreen
 
 class ViewPagerFragment : Fragment() {
 
