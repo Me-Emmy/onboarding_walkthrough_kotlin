@@ -1,4 +1,4 @@
-package com.emmywallpapers.onboarding.screens
+package com.onboarding.screens
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -18,7 +18,6 @@ class FirstScreen : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         binding= FragmentFirstScreenBinding.inflate(inflater,container,false)
 
         val viewPager =  activity?.findViewById<ViewPager2>(R.id.viewPager)
