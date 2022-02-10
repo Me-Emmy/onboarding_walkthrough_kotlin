@@ -1,4 +1,4 @@
-package com.emmywallpapers.Adapter
+package com.onboarding
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
